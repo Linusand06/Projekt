@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recept</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Stekt biff med potatisgratäng</h1>
-        <p>Stekt biff med krämig potatisgratäng som får underbar smak av vitlök och timjan. Servera rätten med Arlas goda tomat- och bönsallad.</p>
+        <div id="text">
+            <h1>Stekt biff med potatisgratäng</h1>
+            <p>Stekt biff med krämig potatisgratäng som får underbar smak av vitlök och timjan. Servera rätten med Arlas goda tomat- och bönsallad.</p>
+         </div>
+        <img id="färdig" src="./img/stekt-biff-med-potatisgratang.webp" alt="Färdig rätt">
     </header>
 
     <nav>
         <div id="bildmat">
-            <img src="./img/stekt-biff-med-potatisgratang.webp" alt="Bild på rätten">
+            <img id="maträtt"  src="./img/Kottbutiken_Lulea_Ryggbiff_2400x.webp" alt="Bild på ryggbiff">
         </div>
         <div id="ingredienser">
-            <h2>Ingredienser</h2>
+            <h2>Ingredienser (4 portioner)</h2>
             <a href="https://www.hemkop.se/produkt/Ryggbiff-i-Skivor-Sverige-100943124_KG">Ryggbiff i skivor 500g</a>
             <p>Salt och peppar</p>
             <a href="https://handla.ica.se/produkt/1268118">Svenskt smör från Arla</a>
             <h3>Potatisgratäng:</h3>
-            <a href="https://handla.ica.se/produkt/1270147">Mjölig potatis 750g</a>
-            <a href="https://handla.ica.se/produkt/1338710"> Arla Köket Matlagningsgrädde 4½ dl </a>
+            <a href="https://handla.ica.se/produkt/1270147" id="potatis">Mjölig potatis 750g</a>
             <p>Salt ½ tsk</p>
+            <a href="https://handla.ica.se/produkt/1338710"> Arla Köket Matlagningsgrädde 4½ dl </a>
             <p>Pressad vitlöksklyfta 1</p>
             <h3>Tomat- och bönsallad:</h3>
             <p>Färsk haricots verts 100g</p>
             <p>Tomater 3</p>
-            <p>Rödlök</p>
+            <p>Rödlök 1</p>
             <p>Färsk persilja 1 kruka</p>
             <p>Rödvinsvinäger 1 msk</p>
             <p>Olivolja 2 msk</p>
@@ -36,7 +40,7 @@
     </nav>
 
     <main>
-        <h2>Instruktioner</h2>
+        <h2 id="instruktioner">Instruktioner</h2>
         <ol>
             <li>Sätt ugnen på 225° eller 200° varmluft.</li>
             <li>Skala och skiva potatisen. Koka upp grädden. Lägg i potatis, salt och vitlök. Koka potatisen mjuk.</li>
@@ -50,7 +54,8 @@
     </main>
 
     <footer>
-
+        <h2>Kontakta oss:</h2>
+        <a href="mailto:koket@arla.se ">Maila oss på koket@arla.se</a>
     </footer>
 </body>
 </html>

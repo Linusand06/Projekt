@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Oswald:wght@200..700&display=swap');
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
+    background-image: url(./img/food-4k-m37wpodzrcbv5gvw.jpg);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    grid-column: 1/3;
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 5%;
+    font-family: oswald;
+    background-color: #d1c5c5;
+}
+
+#färdig{
+    height: 300px;
+    width: 400px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-row: 2/4;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 10%;
+    padding-top: 5%;
+    font-family: oswald;
+    border: 5px solid black;
+    background-color: #e6e1e1;
+}
+
+#ingredienser{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#maträtt{
+    height: 200px;
+    width: 250px;
+}
+
+main{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    margin: 15%;
+    font-size: x-large;
+    font-family: oswald;
+    border: 5px solid black;
+    padding: 5%;
+    background-color: #e6e1e1;
+}
+
+ol li{
+    margin: 15px;
+}
+
+#instruktioner{
+    padding-left: 5%;
+}
+
+footer{
+    grid-column: 1/3;
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 5%;
+    font-family: oswald;
+    background-color: gray;
+}
+
